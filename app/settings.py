@@ -25,7 +25,7 @@ SECRET_KEY = '5u$7%alr4$lntnwcb!u9ne1hkh++s6^=g$rx@yxcy8n-o12&hj'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["192.168.1.4", '0.0.0.0', "127.0.0.1" ]
+ALLOWED_HOSTS = ["p2-events-kaavya99-kaavyasinghal48900.codeanyapp.com" ]
 
 
 # Application definition

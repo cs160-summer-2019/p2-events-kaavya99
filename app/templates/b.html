@@ -30,17 +30,33 @@
 		<div class="row">
 			<div class="col-12">
 				<div class="shape-container">
-					<!-- Dynamically add your circles here! -->
-					<!-- Example circle: <div class="p2-circle bg-blue"></div> -->
-				</div>
+					
+				
+          
 			</div>
 		</div>
 	</div>
-
+  </div>
 
 <script type="text/javascript">
 
-	// your solution here
+$(function(){
+    var stopPress = true;
+    setInterval(function(){
+      if (stopPress) {
+        $(".shape-container").append($("<div class='p2-circle bg-blue'></div>"));
+      }
+                                                  
+    }, 1000);
+  
+  $(".btn.btn-light.float-right").on("click", ()=> {
+    stopPress = false;
+  });
+  
+  
+  
+});
+          
 
 </script>
 </body>
